@@ -32,13 +32,13 @@ Initial use will be to add a task, this can be done by running the following com
 
 This will return a response to the CLI, below is the response when adding a task for the first time:
 
-`JSON file does not exist.`
-`JSON file created successfully.`
+`JSON file does not exist.`\
+`JSON file created successfully.`\
 `Task added successfully.`
 
 Below will be returned when adding any further tasks:
 
-`JSON file exists.`
+`JSON file exists.`\
 `Task added successfully.`
 
 **Note: Any handled & unhandled errors from the application will also appear in the CLI as response**
@@ -50,7 +50,7 @@ From here you can now view the task list with the following command:
 
 This will return the contents of the "tasks.json" file that is created and used to store the tasks:
 
-`JSON file exists.`
+`JSON file exists.`\
 `ID: 1, Name: Check Tyre Pressures, Status: pending`
 
 ### Update Task Status
@@ -60,12 +60,12 @@ Next we can update the existing task with a new status, for example we will upda
 
 This will then return the following:
 
-`JSON file exists.`
+`JSON file exists.`\
 `Task status updated successfully.`
 
 From here we can then run the list command again and see the status of the task has now changed from "pending" to "done":
 
-`JSON file exists.`
+`JSON file exists.`\
 `ID: 1, Name: Check Tyre Pressures, Status: done`
 
 ### Update Task Name
@@ -75,7 +75,7 @@ If we wanted to change the name of the task, we can do that as well by running t
 
 Then you will get the following response:
 
-`JSON file exists.`
+`JSON file exists.`\
 `Task updated successfully.`
 
 ### Delete Task
@@ -85,5 +85,5 @@ Lastly we can remove a task by simply running the following command:
 
 This will then return the following:
 
-`JSON file exists.`
+`JSON file exists.`\
 `Task deleted successfully.`
