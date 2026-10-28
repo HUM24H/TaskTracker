@@ -2,8 +2,7 @@
 ## Introduction
 Task Tracker is a CLI app built using Go
 
-**Note: This CLI app was built for the purpose of learning Go**
-**This not meant for any production or public use**
+**Note: This CLI app was built for the purpose of learning Go. This is not meant for any production or public use**
 
 ## Description
 The Task Tracker CLI app is a simple Go application that allows a user to create a Task List.
